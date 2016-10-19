@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>RS.Data</id>
+		<version>1.0.0.0</version>
+		<authors>Romanian Software</authors>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>RS.Data</description>
+		<dependencies>
+			<dependency id="HtmlAgilityPack" version="1.4.9" />
+			<dependency id="Newtonsoft.Json" version="7.0.1" />
+			<dependency id="RS.Common" version="1.45.0" />
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="bin\Release\RS.Data.dll" target="lib\net45\RS.Data.dll" /> 
+		<file src="RS.Data.Net35\bin\Release\RS.Data.dll" target="lib\net35\RS.Data.dll" />
+		<file src="RS.Data.Net20\bin\Release\RS.Data.dll" target="lib\net20\RS.Data.dll" />
+	</files>
+</package>
