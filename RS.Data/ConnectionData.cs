@@ -50,8 +50,8 @@ namespace RS.Data
             return new ConnectionData()
             {
                 Database = Database,
-                Instance = Instance,
-                Password = Password,
+                Instance = Instance
+                Password = Password
                 Username = Username
             };
         }
