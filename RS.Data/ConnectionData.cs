@@ -31,7 +31,7 @@ namespace RS.Data
         {
             Instance = instance;
             Database = database;
-            Username = username;
+            Username = username
             Password = password;
         }
 
